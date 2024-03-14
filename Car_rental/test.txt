@@ -1,0 +1,34 @@
+login: 
+	đối sánh username và password để đăng nhập vào ứng dụng.
+tạo tài khoản:
+	th1: không nhập đủ thông tin
+	th2: nhập 2 mật khẩu khác nhau
+	th3: tài khoản tồn tại
+	th4: tạo thành công
+đổi mật khẩu:
+	- mật khẩu xác nhận không khớp.
+	- đổi mật khâu thành công
+	- mật khẩu dưới 6 kí tự thì thông báo mật khẩu phải trên 6 kí tự
+	- mật khẩu hiện tại không đúng
+quản lý khách hàng
+	- thêm: phải điền đầy đủ thông tin.
+		+ mã đã tồn tại: chọn mã khác.
+		+ thêm thành công.
+	- sửa: mã khách hàng không được để trống
+		không được sửa mã khách hàng.
+		cập nhật thành công.
+	- xóa: xóa thành công
+		không được để trống mã.
+quản lý xe trong kho: 
+	- thêm : giá không hợp lệ.
+		vui lòng điền đầy đủ thông tin
+		thêm thành công
+		mã đã tồn tại
+	-sửa: mã không để trống, không được sửa mã, giá không hợp lệ, cập nhật htành công
+	-xóa: xóa thành công, không được để trống mã.
+thuê:
+	vui lòng nhập đủ ngày( nhập thiếu ngày tháng)
+	vui lòng nhậpd đầy đủ thông tin.
+	ngày hẹn trả không được nhỏ hơn ngày thuê.
+trả: 
+không có thông báo, chỉ cập nhật ở 2 bằng.
